@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1b0033);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: radial-gradient(circle at center, #330066, #000);
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.glow {
+    color: #ff4da6;
+    text-shadow: 0 0 10px #ff4da6,
+                 0 0 20px #ff4da6,
+                 0 0 40px #00ffff;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ff4da6;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #00ffff;
+    transform: scale(1.1);
+}
+
+/* Navigation */
+nav {
+    background: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #ff4da6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+/* Glass Sections */
+.glass {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    margin: 40px auto;
+    padding: 40px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 77, 166, 0.4);
+    transition: transform 0.4s ease;
+}
+
+.glass:hover {
+    transform: translateY(-10px);
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 40px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #00ffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: #888;
+}
